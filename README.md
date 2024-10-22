@@ -1,5 +1,6 @@
 Project: Build a Simple Contact Form
 Objective: Create a user-friendly contact form that captures essential user information.
+
 Instructions:
 Form Structure:
 Create a form element that serves as the container for all fields.
@@ -31,8 +32,10 @@ Maintain a clean and simple layout to enhance usability.
 Accessibility Considerations:
 Ensure all input fields have associated labels for screen readers.
 Use placeholder text to guide users on what to enter but do not rely solely on it.
+
 Submission:
-Once completed, review your form for functionality and aesthetics.
-Create a repository and push your code
-For your git practice, make develop your default then make a feature branch from develop called “feature/form”
-Good luck, and be creative! This should be completed by 4pm tomorrow, 22nd of october 2024.
+I reviewed my form for functionality and aesthetics.
+I create a repository and push my code
+
+For my git practice, I made develop my default then make a feature branch from develop called “feature/form”
+
