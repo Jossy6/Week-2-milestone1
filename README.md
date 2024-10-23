@@ -30,11 +30,11 @@ Merge:
 ## How to Run the Project
 - Clone this repository to your local machine.
 ```
-git clone <repository-url>
+git clone https://github.com/Jossy6/Week-2-milestone1.git
 ```
 - Navigate to the project directory.
 ```
-cd simple-contact-form
+cd C:\Users\ADMIN\Desktop\WEEK-2-Milestone\Week-2-milestone1
 ```
 - Open the `index.html` file in your web browser to view and interact with the form
 
