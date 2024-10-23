@@ -46,6 +46,6 @@ One challenge was ensuring that the form structure was accessible and intuitive 
 **CSS** (optional for styling): For adding any custom design if needed.
 
 ## GitHub Repository
-You can find the code for this project in the repository linked below: GitHub Repository Link
+You can find the code for this project in the repository linked below: git clone https://github.com/Jossy6/Week-2-milestone1.git
 
 
