@@ -4,38 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    </head>
+    <style>
+        /* This ensures the body fills the screen height and centers content */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
 
-    <body>
+        /* Styling the form container */
+        fieldset {
+            background-color: aquamarine;
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Adjusting the width */
+            margin-top: 50px; /* Adding some margin at the top */
+            
+        }
 
-        <fieldset style="background-color: aquamarine;width: 180px;">
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-            <form>
-                <h2 align="center">Contact Us</h2>
-               <label for="name"><b>Your Name:</b></label><br/>
-               <input type="text" placeholder="Enter your Name" required/>
-        
-        
-          
-               <br/><br/>
-               <label><b>Your Email:</b></label><br/>
-               <input type="email" placeholder="Enter your email address" required/>
-        
-             
-               <br/><br/>
-               <label><b>Your Message:</b></label><br/>
-               <textarea id="message" name="message" placeholder="Type your message here" rows="3" cols="21" required></textarea>
-        
-               
-               
-               <br/><br/>
-               <input type="submit" value="Send Message">
-            </form><br/>
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
 
-        </fieldset>
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            width: 100%;
+        }
 
+        input[type="submit"]:hover {
+            background-color: #655c5c;
+        }
+        label {
+            width: 100%;  /* Ensure the label takes full width */
+            text-align: left;
+            margin-top: 10px;
+        }
 
-    </body>
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <form>
+            <h2>Contact Us</h2>
+            <label for="name"><b>Your Name:</b></label>
+            <input type="text" placeholder="Enter your Name" required/>
+
+            <label for="email"><b>Your Email:</b></label>
+            <input type="email" placeholder="Enter your email address" required/>
+
+            <label for="message"><b>Your Message:</b></label>
+            <textarea id="message" name="message" placeholder="Type your message here" rows="3" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </fieldset>
+
+</body>
 </html>
-
 
