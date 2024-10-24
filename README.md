@@ -1,38 +1,51 @@
-Project: Build a Simple Contact Form
-Objective: Create a user-friendly contact form that captures essential user information.
-Instructions:
-Form Structure:
-Create a form element that serves as the container for all fields.
-Ensure the form has a clear and descriptive title at the top (e.g., "Contact Us").
-Field Requirements:
-Name Field:
-Label: "Your Name"
-Input Type: Text
-Placeholder: "Enter your name"
-Position: This field should be the first input in the form.
-Email Field:
-Label: "Your Email"
-Input Type: Email
-Placeholder: "Enter your email address"
-Position: This field should follow the name field.
-Message Field:
-Label: "Your Message"
-Input Type: Textarea
-Placeholder: "Type your message here"
-Position: This field should come after the email field.
-Submit Button:
-Label: "Send Message"
-Input Type: Submit
-Position: Place this button at the end of the form, clearly visible.
-Styling and Layout:
-Ensure the form has consistent spacing between fields.
-Use labels to clearly identify each input field, positioned above the respective input.
-Maintain a clean and simple layout to enhance usability.
-Accessibility Considerations:
-Ensure all input fields have associated labels for screen readers.
-Use placeholder text to guide users on what to enter but do not rely solely on it.
-Submission:
-Once completed, review your form for functionality and aesthetics.
-Create a repository and push your code
-For your git practice, make develop your default then make a feature branch from develop called “feature/form”
-Good luck, and be creative! This should be completed by 4pm tomorrow, 22nd of october 2024.
+# Simple Contact Form Project  
+## Overview  
+This project involves building a Simple Contact Form that captures essential user details such as their name, email, and message. The goal is to create a functional, user-friendly, and accessible form that allows users to submit their information. The project is designed to help me practice HTML form creation and Git branching
+
+## Features
+- User-Friendly Form: Includes fields for Name, Email, and Message.
+- Form Validation: Ensures that all fields are filled before submission.
+- Responsive Design: The form layout adapts well to different screen sizes.
+- Accessible: Labels are provided for each input field to enhance screen reader compatibility.
+
+## Project Instructions
+- **Form Layout**: Use proper labels above input fields to clearly identify them, with appropriate spacing for easy reading.
+- **Form Structure**: Ensure a clean and intuitive structure to guide the user.
+- **Submission**: Once the user fills out the form, they can submit the details by clicking the "Send Message" button.
+
+## Git Workflow
+### Repository Setup:
+
+- Initialize a Git repository and create a develop branch as your default branch.
+Branching:
+
+- Create a feature branch from develop called feature/form.
+Push Changes:
+
+- After completing the form, push all changes to the feature/form branch.
+Merge:
+
+- When ready, you can merge the feature/form branch into develop.
+
+## How to Run the Project
+- Clone this repository to your local machine.
+```
+git clone https://github.com/Jossy6/Week-2-milestone1.git
+```
+- Navigate to the project directory.
+```
+cd C:\Users\ADMIN\Desktop\WEEK-2-Milestone\Week-2-milestone1
+```
+- Open the `index.html` file in your web browser to view and interact with the form
+
+## Challenges Faced
+One challenge was ensuring that the form structure was accessible and intuitive for users. Another was setting up the proper branching workflow in Git to maintain a clean code structure.
+
+## Technologies Used
+**HTML**: For the form structure.  
+**CSS** (optional for styling): For adding any custom design if needed.
+
+## GitHub Repository
+You can find the code for this project in the repository linked below: git clone https://github.com/Jossy6/Week-2-milestone1.git
+
+
